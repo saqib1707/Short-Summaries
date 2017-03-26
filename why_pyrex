@@ -1,4 +1,0 @@
-Pyrex is a programming language developed to aid in creating Python modules. Its syntax is very close to Python. The goal is to make it easy for Python programmers to write the non-Python supporting code usually required for interfacing modules in a language which is as close to Python as possible.
-
-Pyrex abilities-
-	Pyrex allows the user to write extension modules in a Python-like language which may directly access the external C code. The similarity of Pyrex's syntax to Python's makes it easy to write Python modules, as there is no need to learn another language (such as C or C++), and there may be no need to write any glue code. All that is needed is to specify the name of C-header files, enumerations, datatypes and functions needing to be accessed in the module. Then one simply uses them as if they were Python objects. The Pyrex compiler will generate the necessary glue code automatically and compile the Pyrex code into a working Python module.

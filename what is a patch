@@ -1,1 +1,0 @@
-A patch is a small file that indicates what was changed in a repository. It's generally used when someone from outside your team has read-only access but had a good code change available. He then creates a patch and sends it to you. You apply it and push it to the git repository.

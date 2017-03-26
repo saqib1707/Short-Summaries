@@ -4,7 +4,7 @@ Chipmunk is a simple , lightweight fast and portable 2D rigid body physics libra
 New things added in chipmunk2D 7-
 * ARM NEON optimizations
 * Autogeometry code
-* Multithreaded solver
+* Multi-threaded solver
 
 Features in Chipmunk2D-
 * Designed specially for 2D video games.
@@ -37,7 +37,7 @@ Possible things that can be done with it-
 * Given a mask for your terrain, you can update  it on the fly for worms style destructible terrain.
 * Given a mathematical function like perlin noise , generate procedural terrain4. Given an image for a sprite, automatically generate a convex polygon to fit around it. It will be able to generate a set of convex polygons for concave shapes.
 
-**Collision Detection Algorithm**
+**Collision Detection Algorithm**<br>
 **Multithreaded solver for Robot Structual Analysis**
 
 

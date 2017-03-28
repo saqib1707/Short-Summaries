@@ -1,0 +1,1 @@
+From the chipmunk forum page, I came to know that the chipmunk v7 overall is quite similar to chipmunk v6. The biggest things to note are shape filters replacing layers/groups, the new collision handler C API and the more explicit names.ARM NEON optimizations for mobile CPUs

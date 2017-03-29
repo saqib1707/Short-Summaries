@@ -17,6 +17,11 @@ This means the components cannot be an array of C structs alone, and need to kee
 
 The point is that kivent has its own method of managing the life cycle of objects that enables it to avoid the overhead of python object garbage collection entirely. Chipmunk objects can live independently of the python object that currently houses them in cymunk.
 
+**Minutes with Kovak - 28th March**
+Me: for testing purpose I was thinking to use time as a metric. Will it be good enough to tell the difference between right now kivent_cymunk and the kivent_chipmunk
+Kovak: the biggest difference I expect to see is in the time it takes to create or remote a physics entity though the frame time per update probably won't change significantly.
+I typically use cProfile and examine the average time for the update,init_component and remove_component.
+
 
 
 **What does reference means in python and in C++?**

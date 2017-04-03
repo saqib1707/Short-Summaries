@@ -30,7 +30,7 @@ The demos all just set up a Chipmunk simulation space and the demo app draws the
 
 **About Autogeometry feature(new) in chipmunk 7.0.1**
 
-Its a collection of utilities for vectorizing the image data and simplifying the geometry for it.It doesn't works on images exclusively , one could just give it a mathematical function like perlin noise if one want to make a procedurally generated map. 
+Its a collection of utilities for vectorizing the image data and simplifying the geometry for it.It doesn't works on images exclusively , one could just give it a mathematical function like _perlin noise_(Perlin Noise is an extremely powerful algorithm that is used often in procedural content generation. Useful in making games and visual graphics) if one want to make a procedurally generated map. 
 There is something called convex decomosition which can break concave shapes to chipmunk friendly convex ones.
 Possible things that can be done with it-
 * Given a background image of your level , generate a set of optimized line segments to fit the outline of it.
